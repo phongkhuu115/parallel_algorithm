@@ -34,7 +34,6 @@ def prefix_sum_parallel(arr):
     for prefix in prefix_sums:
         result.extend([val + prefix_sum_value for val in prefix])
         prefix_sum_value = result[-1]
-
     return result
 
 
@@ -58,7 +57,7 @@ def benmark(size):
 
 # Example usage
 if __name__ == '__main__':
-    benmark(BASE_SIZE)
-    # benmark(10000)
+    # benmark(BASE_SIZE)
+    benmark(ONE_THOUSAND)
     # benmark(ONE_MILLION)
     # benmark(ONE_HUNDRED_MILLION)
