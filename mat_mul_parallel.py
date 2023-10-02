@@ -118,3 +118,16 @@ if __name__ == "__main__":
     # Chia công việc tính toán thành các khối con và sử dụng multiprocessing để song song hóa
 
     # saveToFile(A, B, C)
+
+
+# ! Dont run this code :D
+def mat_mul_seq(A, B):
+    n = 1000
+    res = np.zeros(n,n)
+    for i in range(0, len(A)):
+        for j in range(0, len(B[0])):
+            for k in range(len(B)):
+                res[i][j] += A[i][k] * B[k][j]
+
+    return res
+
