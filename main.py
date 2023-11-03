@@ -24,5 +24,5 @@ if __name__ == '__main__':
     SIZE_DOOM = testcase.ONE_BILLION
 
     # benmark_prefix_sum(SIZE_DEBUG, prefix_sum_parallel)
-    benmark_prefix_sum_debug(SIZE_DEBUG, prefix_sum_parallel)
-    # benmark_array_sum(SIZE_EASY, array_sum_parallel)
+    # benmark_prefix_sum_debug(SIZE_DEBUG, prefix_sum_parallel)
+    benmark_array_sum(SIZE_ULTRA_HARD, array_sum_parallel)

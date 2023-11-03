@@ -12,6 +12,7 @@ def array_sum(arr_src):
         return array_sum(arr[:mid]) + array_sum(arr[mid:])
     
 def array_sum_parallel(arr):
+    sum = 0
     num_processes = multiprocessing.cpu_count()
     chunk_size = len(arr) // num_processes
 
