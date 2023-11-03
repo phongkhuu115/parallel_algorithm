@@ -9,3 +9,5 @@ Bài tập:
 2. Nhân 2 ma trận song song
 3. Thuật toán sắp xếp bất kì song song
 4. Hadoop
+5. Cộng các phần tử trong mảng song song
+6. Prefix sum song song
